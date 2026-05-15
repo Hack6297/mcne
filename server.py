@@ -282,3 +282,4 @@ if __name__ == "__main__":
     server = ThreadingHTTPServer((HOST, PORT), SyncHandler)
     print(f"Minecraft Nesa sync server listening on http://{HOST}:{PORT}")
     server.serve_forever()
+
